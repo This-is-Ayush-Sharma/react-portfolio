@@ -11,8 +11,8 @@ function NavbarTop() {
                     <img
                         alt=""
                         src={portfolio}
-                        width="150"
-                        height="60"
+                        width="130"
+                        height="70"
                         className="d-inline-block align-top"
                     />{' '}
                     {/* Portfolio */}
