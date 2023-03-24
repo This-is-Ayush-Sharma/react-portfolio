@@ -1,12 +1,14 @@
 import React from 'react'
 
+import aboutme from '../asserts/images/ayushabout.png'
+
 export default function Abouts() {
     return (
         <div className='container mt-5 shadow-lg d-flex'>
             <div className="card mt-3 mb-3 border-0 p-3" style={{ width: "100%", height: "100%" }}>
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src="..." className="img-fluid rounded-start" alt="..." />
+                        <img src={aboutme} className="img-fluid rounded-start" alt="..." />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
