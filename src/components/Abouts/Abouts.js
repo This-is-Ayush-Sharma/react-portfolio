@@ -4,7 +4,7 @@ import aboutme from '../asserts/images/ayushabout.png'
 
 export default function Abouts() {
     return (
-        <div className='container mt-5 shadow-lg d-flex'>
+        <div className='mt-3 container shadow-lg d-flex border-0 border-bottom border-right border-4 border-warning'>
             <div className="card mt-3 mb-3 border-0 p-3" style={{ width: "100%", height: "100%" }}>
                 <div className="row g-0">
                     <div className="col-md-4">
@@ -12,7 +12,7 @@ export default function Abouts() {
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
-                            <h1 className="card-title mb-3">My Introduction</h1>
+                            <h1 className="card-title mb-3"><span className='border-0 border-bottom border-2 border-dark'>My Introduction</span></h1>
                             <div className="card-text mt-3">
                                 <p>
                                     I am a pre-final year B.Tech student from Rourkela, Odisha, currently pursuing my B.TECH degree at GIET University in Rayagada, Odisha. I have completed my intermediate and matriculation education from St. Paul's School, Rourkela.
@@ -24,7 +24,7 @@ export default function Abouts() {
                                     This portfolio website is a showcase of my skills, projects, and achievements. It serves as a platform to highlight my work and experience in the field of computer science.
                                 </p>
                             </div>
-                            <p className="card-text"><small className="text-muted">Ayush Sharma</small></p>
+                            <p className="card-text"><small className="text-muted border-0 border-bottom border-right border-2 border-info">Ayush Sharma</small></p>
                         </div>
                     </div>
                 </div>

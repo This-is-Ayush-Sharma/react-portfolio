@@ -5,14 +5,17 @@ import Footer from './components/basic/Footer/Footer';
 import Abouts from './components/Abouts/Abouts';
 import Achievement from './components/Achievement/Achievement';
 
+import Contacts from './components/Contact/Contact'
+
 function App() {
   return (
     <>
       <NavbarTop />
-      {/* <Lander /> */}
+      <Lander />
       {/* <Footer /> */}
       {/* <Abouts /> */}
-      <Achievement />
+      {/* <Achievement /> */}
+      {/* <Contacts /> */}
     </>  
   );
 }

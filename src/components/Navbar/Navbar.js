@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import portfolio from '../asserts/images/portfolio.png'
 function NavbarTop() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" className='border-0 border-bottom border-right border-1 border-warning'>
             <Container>
                 <Navbar.Brand href="#home" style={{fontSize: "1.8rem"}}>
                     <img
