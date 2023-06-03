@@ -11,12 +11,13 @@ import Lander from './components/Lander/Lander';
 // import Footer from './components/basic/Footer/Footer';
 import Abouts from './components/Abouts/Abouts';
 import Achievement from './components/Achievement/Achievement';
-import Contacts from './components/Contact/Contact'
+import Contacts from './components/Contact/Contact';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
     <>
-
       <Router>
         <NavbarTop />
         <Routes>
@@ -24,6 +25,8 @@ function App() {
           <Route path='/' element={<Lander />} />
           <Route path='/contact' element={<Contacts/>} />
           <Route path='/achievements' element={<Achievement/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/skills' element={<Skills/>} />
           {/* <Route path='/about' element={<Abouts/>}/>
         <Route path='/about' element={<Abouts/>}/> */}
         </Routes>

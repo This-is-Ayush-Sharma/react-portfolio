@@ -27,15 +27,15 @@ export default function Lander() {
     return (
         <>
             <div className="mt-1 container d-flex justify-content-center align-items-center">
-                <div className="card border-0 border-bottom border-right border-3 border-warning" style={{ maxWidth: "100%" }}>
+                <div className="card border-0 border-bottom border-right border-3 border-warning" style={{ maxWidth: "100%"}}>
                     <div className="row g-0 flex-row-reverse">
                         <div className="col-md-4 shadow-lg">
-                            <img src={ayush} className="img-fluid rounded-start" alt="..." />
+                            <img src={ayush} className="img-fluid rounded-start" alt="..."/>
                         </div>
                         <div className="col-md-8 shadow-sm d-flex justify-content-center align-items-center">
                             <div className="card-body">
                                 <div className="card-title text-center fw-bolder" style={{ fontSize: "1.8rem" }}>
-                                    <span style={{ color: "red" }}>Ayush</span> Sharma
+                                    <span style={{ color: "red", fontSize: "40px" }}>Ayush</span> Sharma
                                 </div>
                                 <div className="card-text font-monospace d-inline-flex p-2">
                                     Welcome to my portfolio website! As a web developer, I am passionate about creating engaging and dynamic websites that not only look great but also deliver an exceptional user experience.
